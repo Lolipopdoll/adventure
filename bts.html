@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  /* Hide the hidden content by default */
+  .hidden {
+    display: none;
+  }
+
+  /* Show the hidden content when the parent element is hovered */
+  .member-info:hover .hidden {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a white background with some transparency */
+    padding: 10px;
+  }
+  
+  /* Set the position of the member info container to relative */
+  .member-info {
+    position: relative;
+    display: inline-block;
+  }
+  </style>
+  
+  <style>
+  .member-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .member-info {
+    margin: 10px;
+    position: relative;
+    width: 20rem;
+  }
+  .member-info img {
+    width: 100%;
+    height: auto;
+  }
+  .hidden {
+    display: none;
+  }
+  .member-info:hover .hidden {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+  }
+</style>
+</head>
+
+<body>
+
+<header style="position: relative;">
+  <nav>
+    <title>BTS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="all photos\favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="cute style.css">
+    <link rel="stylesheet" href="media.css">
+  </nav>
+  <h1 style="color: #F2C76E;">PopKulture: BTS</h1>
+  <p>Join the Army, get to know your BTS idols!!</p>
+  <img src="all photos/cat.gif" alt="Animated GIF" style="position: absolute; top: 0; right: 0; z-index: 1; width: 100px;">
+</header>
+
+
+<style>/*ensures that text about bts is self adjustable on in and out zoom*/
+.about.bts p {
+    font-size: calc(14px + 0.5vw);
+    line-height: calc(20px + 0.5vw);
+}
+</style>
+
+<section class="about bts">
+
+    <h2>ABOUT BTS</h2>
+    <p>
+BTS is a K-pop sensation that has taken the world by storm. The group of seven talented
+performers - RM, Jin, Suga, J-Hope, Jimin, V, and Jungkook - has a massive following of
+fans who are captivated by their music, dance performances, and positive messages.
+
+Their live performances are a feast for the eyes, with stunning choreography, colorful 
+costumes, and elaborate stage designs. BTS has won numerous awards and accolades for 
+their work, and their music resonates with audiences worldwide.
+
+But BTS is more than just a popular boy band. They've become a cultural phenomenon, 
+inspiring millions of fans with their messages of self-love, acceptance, and mental 
+health awareness. BTS is a breath of fresh air in the entertainment industry, and 
+they continue to make waves with their creativity and passion.
+
+Whether you're a long-time fan or new to the world of K-pop, BTS is a group that you won't want to miss!</p>
+<button type="submit" onclick="window.open('https://wikipedia.org/wiki/BTS', '_blank')"><i>Read more on wikipedia</i></button>
+	</section>
+
+<div> <!--shows the photos of members with hidden information, also clicking on images opena a new tabs with corresponding instagram profiles-->
+<h2>MEET THE MEMBERS! 
+<i>P.S.Click the photo to view their instagram profile ;)</i> </h2>
+ <div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/uarmyhope/" target="_blank">
+    <img src="all photos/jhope.png">
+    <div class="member-details">
+      <h3 class="member-name">J-Hope</h3>
+      <p class="hidden">
+        <strong>Stage Name:</strong> J-Hope (제이홉)<br>
+        <strong>Birth Name:</strong> Jung Hoseok (정호석)<br>
+        <strong>Position:</strong> Main Dancer, Rapper, Sub Vocalist<br>
+        <strong>Birthday:</strong> February 18, 1994<br>
+        <strong>Zodiac Sign:</strong> Aquarius
+      </p>
+    </div>
+  </a>
+</div>
+	
+ <div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/j.m/" target="_blank">
+    <img src="all photos/jimin.png">
+    <div class="member-details">
+      <h3 class="member-name">Park Jimin</h3>
+      <p class="hidden">
+        <strong>Stage Name:</strong> Jimin (지민)<br>
+        <strong>Birth Name:</strong> Park Jimin (박지민)<br>
+        <strong>Position:</strong> Main Dancer, Lead Vocalist<br>
+        <strong>Birthday:</strong> October 13, 1995<br>
+        <strong>Zodiac Sign:</strong> Libra
+      </p>
+    </div>
+  </a>
+</div>
+
+ <div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/rkive/" target="_blank">
+    <img src="all photos/rm.png">
+    <div class="member-details">
+      <h3 class="member-name">RM</h3>
+      <p class="hidden">
+        <strong>Stage Name:</strong> RM (알엠)<br>
+        <strong>Birth Name:</strong> Kim Namjoon (김남준)<br>
+        <strong>Position:</strong> Leader, Main Rapper<br>
+        <strong>Birthday:</strong> September 12, 1994<br>
+        <strong>Zodiac Sign:</strong> Virgo
+      </p>
+    </div>
+  </a>
+</div>
+
+ <div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/jin/" target="_blank">
+    <img src="all photos/jin.png">
+    <div class="member-details">
+      <h3 class="member-name">Jin</h3>
+      <p class="hidden">
+        <strong>Stage Name:</strong> Jin (진)<br>
+        <strong>Birth Name:</strong> Kim Seokjin (김석진)<br>
+        <strong>Position:</strong> Vocalist, Visual<br>
+        <strong>Birthday:</strong> December 4, 1992<br>
+        <strong>Zodiac Sign:</strong> Sagittarius
+      </p>
+    </div>
+  </a>
+</div>
+
+ <div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/thv/" target="_blank">
+    <img src="all photos/v.png">
+    <div class="member-details">
+      <h3 class="member-name">Kim Taehyung</h3>
+      <p class="hidden">
+        <strong>Stage Name:</strong> V (뷔)<br>
+        <strong>Birth Name:</strong> Kim Taehyung (김태형)<br>
+        <strong>Position:</strong> Lead Dancer, Vocalist<br>
+        <strong>Birthday:</strong> December 30, 1995<br>
+        <strong>Zodiac Sign:</strong> Capricorn
+      </p>
+    </div>
+  </a>
+</div>
+
+ <div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/agustd/" target="_blank">
+    <img src="all photos/suga.png">
+    <div class="member-details">
+      <h3 class="member-name">Suga</h3>
+      <p class="hidden">
+        <strong>Stage Name:</strong> Suga (슈가)<br>
+        <strong>Birth Name:</strong> Min Yoongi (민윤기)<br>
+        <strong>Position:</strong> Lead Rapper<br>
+        <strong>Birthday:</strong> March 9, 1993<br>
+        <strong>Zodiac Sign:</strong> Pisces
+      </p>
+    </div>
+  </a>
+</div>
+
+ <div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/jungkook_bighitentertainment/" target="_blank">
+    <img src="all photos/jungkook.png">
+    <div class="member-details">
+      <h3 class="member-name">Jungkook</h3>
+      <p class="hidden">
+        <strong>Stage Name:</strong> Jungkook (정국)<br>
+        <strong>Birth Name:</strong> Jeon Jungkook (전정국)<br>
+        <strong>Position:</strong> Main Vocalist, Lead Dancer, Sub Rapper, Center, Maknae<br>
+        <strong>Birthday:</strong> September 1, 1997<br>
+        <strong>Zodiac Sign:</strong> Virgo
+      </p>
+    </div>
+  </a>
+</div>
+			
+</div>
+
+
+<div><!--on the click to the button shows the lyrics in english. Currently official youtube video is not available for copyright issues-->
+      <h2>TOP 3 HITS OF ALL TIME!
+	  <i>P.S.Click the button for listening to songs and viewing lyrics ;)</i> </h2>
+      <ul>
+        
+		<li>
+			<details>
+    		<summary><button class="song-button">#1. DYNAMITE</button></summary>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1454538880&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-486142475" title="BTS" target="_blank" style="color: #cccccc; text-decoration: none;">BTS</a> · <a href="https://soundcloud.com/user-486142475/dynamite" title="Dynamite" target="_blank" style="color: #cccccc; text-decoration: none;">Dynamite</a></div>			
+			<div class="song-text">
+			<h3>Lyrics:</h3>
+			<pre>
+[Intro]
+'Cause I, I, I'm in the stars tonight
+So watch me bring the fire and set the night alight
+
+[Verse 1]
+Shoes on, get up in the morn'
+Cup of milk, let's rock and roll
+King Kong, kick the drum
+Rolling on like a Rolling Stone
+Sing song when I'm walking home
+Jump up to the top, LeBron
+Ding-dong, call me on my phone
+Ice tea and a game of ping pong
+
+[Chorus]
+This is getting heavy, can you hear the bass boom? I'm ready
+Life is sweet as honey, yeah, this beat cha-ching like money, huh
+Disco overload, I'm into that, I'm good to go
+I'm diamond, you know I glow up
+Hey, so let's go
+
+[Verse 2]
+'Cause I, I, I'm in the stars tonight
+So watch me bring the fire and set the night alight
+Shining through the city with a little funk and soul
+So I'ma light it up like dynamite, whoa-oh-oh
+
+[Pre-Chorus]
+Bring a friend, join the crowd, whoever wanna come along
+Word up, talk the talk, just move like we off the wall
+Day or night, the sky's alight, so we dance to the break of dawn
+Ladies and gentlemen, I got the medicine so you should keep ya eyes on the ball, huh
+
+[Chorus]
+This is getting heavy, can you hear the bass boom? I'm ready (woo hoo)
+Life is sweet as honey, yeah, this beat cha-ching like money, huh (woo hoo)
+Disco overload, I'm into that, I'm good to go
+I'm diamond, you know I glow up
+Let's go
+
+[Bridge]
+'Cause ah, ah, I'm in the stars tonight
+So watch me bring the fire and set the night alight (alight, oh)
+
+[Chorus]
+This is getting heavy, can you hear the bass boom? I'm ready (woo hoo)
+Life is sweet as honey, yeah, this beat cha-ching like money, huh (woo hoo)
+Disco overload, I'm into that, I'm good to go
+I'm diamond, you know I glow up
+Hey, so let's go
+
+[Outro]
+'Cause ah, ah, I'm in the stars tonight
+So watch me bring the fire and set the night alight (alight)
+Shining through the city with a little funk and soul
+So I'ma light it up like dynamite, whoa-oh-oh.</pre>
+			</div>
+			</details>
+		</li>
+
+		<li>
+            <details>
+    		<summary><button class="song-button">#2. BUTTER</button></summary>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1087164283&color=%23888ea8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/spiderverse" title="r.i.p itz dolly" target="_blank" style="color: #cccccc; text-decoration: none;">r.i.p itz dolly</a> · <a href="https://soundcloud.com/spiderverse/butter" title="BTS (방탄소년단) Butter" target="_blank" style="color: #cccccc; text-decoration: none;">BTS (방탄소년단) Butter</a></div>
+            <div class="song-text">
+            <h3>Lyrics:</h3>
+            <pre> 
+Smooth like butter
+Like a criminal undercover
+Gon' pop like trouble
+Breakin' into your heart like that (Ooh)
+Cool shade stunner
+Yeah, I owe it all to my mother
+Hot like summer
+Yeah, I'm makin' you sweat like that
+Break it down
+
+Oh, when I look in the mirror
+I'll melt your heart into two
+I got that superstar glow so (Ooh)
+Do the boogie like
+
+Side step, right, left to my beat
+High like the moon, rock with me, baby
+Know that I got that heat
+Let me show you 'cause talk is cheap
+Side step, right, left to my beat
+Get it, let it roll
+
+Smooth like butter
+Pull you in like no other
+Don't need no Usher
+To remind me you got it bad
+Ain't no other
+That can sweep you up like a robber
+Straight up, I got ya
+Makin' you fall like that
+Break it down
+
+Oh, when I look in the mirror
+I'll melt your heart into two
+I got that superstar glow so (Ooh)
+Do the boogie like
+
+Side step, right, left to my beat
+High like the moon, rock with me, baby
+Know that I got that heat
+Let me show you 'cause talk is cheap
+Side step, right, left to my beat
+Get it, let it roll
+
+Get it, let it roll
+Get it, let it roll
+
+Ice on my wrist, I'm the nice guy
+Got the right body and the right mind
+Rollin' up to party, got the right vibe
+Smooth like (Butter), hate us (Love us)
+Fresh boy pull up and we lay low
+All the playas get movin' when the bass low
+Got ARMY right behind us when we say so
+Let's go
+
+Side step, right, left to my beat (Right, left to my beat)
+High like the moon, rock with me, baby
+Know that I got that heat
+Let me show you 'cause talk is cheap (You know that talk is cheap)
+Side step, right, left to my beat
+Get it, let it roll
+
+Smooth like (Butter), cool shade (Stunner)
+Ain't you know we don't stop
+Hot like (Summer), ain't no (Bummer)
+You be like, oh my God
+We gon' make you rock and you say (Yeah)
+We gon' make you bounce and you say (Yeah)
+Hotter? Sweeter! Cooler? Butter!
+
+Get it, let it roll</pre>
+            </div>
+			</details>
+        </li>
+		
+		<li>
+			<details>
+			<summary><button class="song-button">#3. BLOOD, SWEAT & TEARS</button></summary>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346107535&color=%23888ea8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-337135843" title="Jan K-Pop" target="_blank" style="color: #cccccc; text-decoration: none;">Jan K-Pop</a> · <a href="https://soundcloud.com/user-337135843/blood-sweat-and-tears-bts" title="Blood sweat and tears - BTS" target="_blank" style="color: #cccccc; text-decoration: none;">Blood sweat and tears - BTS</a></div>
+			<div class="song-text">
+			<h3>Lyrics:</h3>
+			<pre>
+Take away
+My last dance
+My blood, sweat and tears
+Take away
+My cold breath
+My blood, sweat and tears
+Even my blood, sweat and tears
+Even my body, heart and soul
+I know that it's all yours
+This is a spell that'll punish me
+
+Peaches and cream
+Sweeter than sweet
+Chocolate cheeks
+And chocolate wings
+But your wings are wings of the devil
+In front of your sweet is bitter bitter
+
+Kiss me, I don't care if it hurts,
+Hurry and choke me
+So I can't hurt any more
+Baby, I don't care if I get drunk, I'll drink you in now
+Your whiskey, deep into my throat
+
+My blood, sweat and tears
+Take away
+My last dance
+My blood, sweat and tears
+Take away
+My cold breath
+
+I want you a lot, a lot, a lot
+I want you a lot, a lot, a lot
+I want you a lot, a lot, a lot
+I want you a lot, a lot, a lot
+
+I don't care if it hurts, tie me up
+So I can't run away
+Grab me tightly and shake me
+So I can't snap out of it
+Kiss me on the lips lips,
+Our own little secret
+I wanna be addicted to your prison
+So I can't serve anyone that's not you
+Even though I know,
+I drink the poisonous Holy Grail
+
+My blood, sweat and tears
+Take away
+My last dance
+My blood, sweat and tears
+Take away
+My cold breath
+
+I want you a lot, a lot, a lot
+I want you a lot, a lot, a lot
+I want you a lot, a lot, a lot
+I want you a lot, a lot, a lot
+
+Kill me softly
+Close my eyes with your touch
+I can't even reject you anyway
+I can't run away anymore
+You're too sweet, too sweet
+Because you're too sweet
+
+My blood, sweat and tears
+My blood, sweat and tears</pre>
+			</div>
+			</details>
+		</li>
+
+	  </ul>
+    </div>
+
+</body>
+
+	<footer>
+    <!-- footer code here -->
+  <nav>
+    <ul>
+      <li><a href="main page.html#about us">About Us</a></li>
+      <li><a href="main page.html#merch">See the Merch</a></li>
+      <li><a href="main page.html#contact">Add your Contacts</a></li>
+    </ul>
+  </nav>
+  <p>&copy; 2023 PopKulture. All rights reserved.</p>
+</footer>
+  
+</html>
