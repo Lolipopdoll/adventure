@@ -1,0 +1,147 @@
+body {
+  background-color: #EBE8E7;
+}
+
+header {
+  background-color: #EA7186;
+  color: #fff;
+  padding: 20px;
+}
+
+/*adds space for about us text from left and right sides*/
+.about.us {
+  padding: 0 20px; /* adds 20px of padding to the left and right sides */
+}
+
+/* Add pastel colors for headings and paragraphs */
+h1, h2, h3, h4, h5, h6, p{
+  color: black;
+}
+
+
+/* Add pastel color for buttons */
+button {
+  background-color: #F2C76E;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Add hover effects for buttons */
+button:hover {
+  background-color: #B1CCEB;
+}
+
+/* Style the contact form section */
+.contact {
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact textarea {
+  height: 100px;
+}
+
+.contact button[type="submit"] {
+  background-color: #F2C76E;
+  color: #black;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Footer Section */
+  footer ul {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  footer li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+footer {
+  background-color: #7A77B9;
+  color: #7A77B9;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+footer li {
+  margin-right: 20px;
+}
+
+footer li:last-child {
+  margin-right: 0;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 0.8em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
