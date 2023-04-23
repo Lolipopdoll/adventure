@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <header style="position: relative;">
+  <nav>
+    <title>PopKulture</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="all photos\favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="cute style.css">
+    <link rel="stylesheet" href="media.css">
+  </nav>
+  <h1 style="color: #F2C76E;">PopKulture</h1>
+  <p>Welcome to our website!</p>
+  <img src="all photos/cat.gif" alt="Animated GIF" style="position: absolute; top: 0; right: 0; z-index: 1; width: 100px;">
+</header>
+
+  
+  <main>
+    
+	<style>/*ensures that text about us is self adjustable on in and out zoom*/
+.about.us p {
+    font-size: calc(14px + 0.5vw);
+    line-height: calc(20px + 0.5vw);
+}
+</style>
+	
+	<section class="about us"><!--general info on k-pop culture and about popkulture site -->
+    <h3>About Us</h3>
+    <p>
+Welcome to our pop culture website, where you can indulge in the vibrant and dynamic world of Kpop! 
+We are thrilled to be your go-to destination for all things Kpop, offering a plethora of information 
+about your favorite Kpop groups and their top 3 hits. 
+
+Kpop, or Korean pop music, has taken the world by storm with its catchy tunes, mesmerizing dance moves, 
+and stunning visuals. It has become a global phenomenon, capturing the hearts of millions of fans around
+the world with its infectious beats and unique sound.
+
+On our website, you can explore the world of Kpop and get to know your favorite groups in-depth. We have 
+curated a list of each group's top 3 hits, so you can relive their greatest moments and discover new favorites. 
+Additionally, we offer a platform for you to purchase official Kpop merchandise, so you can show off your love 
+for your favorite groups with pride.
+
+Whether you're a long-time fan or a newcomer to the world of Kpop, our website is the perfect place for you. 
+We hope you enjoy your time here and join us in celebrating the global phenomenon that is Kpop!</p>
+<button type="submit" onclick="window.open('https://wikipedia.org/wiki/K-pop', '_blank')"><i>Read more on wikipedia</i></button>
+    </section>
+  
+
+	<div class="photocards-table">
+
+	<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 5px;
+			text-align: center;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
+	
+	<section id="groups">
+	<h3>Click and check out popular k-pop groups!</h3>
+
+	<table>
+		<tr>
+			<th>TWICE</th>
+			<th>BTS</th>
+			<th>TXT</th>
+		</tr>
+		
+		<tr>
+			<td><a href="twice.html" target="_blank"><img src="all photos/twice.png"></a></td>
+			<td><a href="bts.html" target="_blank"><img src="all photos/bts.png"></a></td>
+			<td><a href="txt.html" target="_blank"><img src="all photos/txt.png"></a></td>
+		</tr>
+	</table>
+	</section>
+	
+	<section id="merch">
+	<h3>Purchase lightsticks of your favourite idols from Kaspi.kz and other online shops!</h3>
+
+	<table>
+		<tr>
+			<th>Candy Bong</th>
+			<th>ARMY Bomb</th>
+			<th>MOA Bong</th>
+		</tr>
+		<tr>
+			<td><a href="https://obyavleniya.kaspi.kz/a/twice-candy-bong-z-lighstick-108571798" target="_blank"><img src="all photos/twice lightstick.gif" width="400" height="400"></a></td>
+			<td><a href="https://obyavleniya.kaspi.kz/a/bts-official-light-stick-se-map-of-the-soul-original-107918933/" target="_blank"><img src="all photos/bts lightstick.gif" width="400" height="400"></a></td>
+			<td><a href="https://weverseshop.io/en/shop/US_USD/artists/3/sales/8373" target="_blank"><img src="all photos/txt lightstick.gif" width="400" height="400"></a></td>
+		</tr>
+	</table>
+	</section>
+</div>
+
+
+    <section id="contact" class="contact"><!-- Contact form code is here -->
+  <h2>Contact Us</h2>
+  <form action="submit.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="add your name~<3">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="add your email address~<3 ">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required placeholder="please send us your opinions, complaints or improvement tips regarding this website! Saranghae~<3"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+	
+	
+
+  </main>
+  
+  <footer>
+    <!-- footer code here -->
+  <nav>
+    <ul>
+      <li><a href="main page.html#about us">Main Page</a></li>
+      <li><a href="main page.html#merch">See the Merch</a></li>
+      <li><a href="main page.html#contact">Add your Contacts</a></li>
+    </ul>
+  </nav>
+  <p>&copy; 2023 PopKulture. All rights reserved.</p>
+</footer>
+
+</body>
+
+</html>
