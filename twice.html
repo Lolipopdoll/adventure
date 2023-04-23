@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  /* Hide the hidden content by default */
+  .hidden {
+    display: none;
+  }
+
+  /* Show the hidden content when the parent element is hovered */
+  .member-info:hover .hidden {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a white background with some transparency */
+    padding: 10px;
+  }
+  
+  /* Set the position of the member info container to relative */
+  .member-info {
+    position: relative;
+    display: inline-block;
+  }
+  </style>
+  
+  <style>
+  .member-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .member-info {
+    margin: 10px;
+    position: relative;
+    width: 20rem;
+  }
+  .member-info img {
+    width: 100%;
+    height: auto;
+  }
+  .hidden {
+    display: none;
+  }
+  .member-info:hover .hidden {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+  }
+</style>
+</head>
+
+<body>
+
+<header style="position: relative;">
+  <nav>
+    <title>TWICE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="all photos\favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="cute style.css">
+    <link rel="stylesheet" href="media.css">
+  </nav>
+  <h1 style="color: #F2C76E;">PopKulture: TWICE</h1>
+  <p>Join the Once family, get to know your TWICE idols!!</p>
+  <img src="all photos/cat.gif" alt="Animated GIF" style="position: absolute; top: 0; right: 0; z-index: 1; width: 100px;">
+</header>
+
+
+<style>/*ensures that text about twice is self adjustable on in and out zoom*/
+.about.bts p {
+    font-size: calc(14px + 0.5vw);
+    line-height: calc(20px + 0.5vw);
+}
+</style>
+
+<section class="about twice">
+
+    <h2>ABOUT TWICE</h2>
+    <p>
+Twice is a South Korean girl group that has captured the hearts of fans all around the world 
+with their charming music, adorable personalities, and infectious energy. The group consists 
+of nine talented members: Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung, and 
+Tzuyu.
+
+Twice is known for their catchy pop music, which often features upbeat melodies and fun 
+choreography that fans can't help but dance along to. Their music videos are visually stunning 
+and showcase the group's lively personalities, making them a delight to watch.
+
+In addition to their music, Twice is also beloved for their positive messages of self-confidence 
+and unity, which have resonated with fans around the world. They are a true force of positivity in 
+the entertainment industry and have inspired countless fans to be themselves and pursue their dreams.
+
+With their incredible talent, infectious energy, and endearing personalities, Twice has become a 
+beloved group in the K-pop scene and beyond. Whether you're a longtime fan or a newcomer, their 
+music and message are sure to brighten your day!</p>
+<button type="submit" onclick="window.open('https://wikipedia.org/wiki/Twice', '_blank')"><i>Read more on wikipedia</i></button>
+	</section>
+
+<div> <!--shows the photos of members with hidden information, also clicking on images opena a new tabs with corresponding instagram profiles-->
+<h2>MEET THE MEMBERS! 
+<i>P.S.Click the photo to view their instagram profile ;)</i> </h2>
+ 
+ <div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/nayeonyny/" target="_blank">
+    <img src="all photos/nayeon.png">
+    <div class="member-details">
+      <h3 class="member-name">Im Nayeon</h3>
+      <p class="hidden">
+	    <strong>Stage Name:</strong> Nayeon(나연)<br>
+        <strong>Korean Name:</strong> 임나연<br>
+        <strong>Position:</strong> Lead Vocalist, Lead Dancer<br>
+        <strong>Birthday:</strong> September 22, 1995<br>
+        <strong>Zodiac Sign:</strong> Virgo
+      </p>
+    </div>
+  </a>
+</div>
+
+
+ <div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/jy_piece/" target="_blank">
+    <img src="all photos/Jeongyeon.png">
+    <div class="member-details">
+      <h3 class="member-name">Yoo Jeongyeon</h3>
+      <p class="hidden">
+	    <strong>Stage Name:</strong> Jeongyeon (정연)<br>
+        <strong>Korean Name:</strong> 유정연<br>
+        <strong>Position:</strong> Lead Vocalist<br>
+        <strong>Birthday:</strong> November 1, 1996<br>
+        <strong>Zodiac Sign:</strong> Scorpio
+      </p>
+    </div>
+  </a>
+</div>
+
+
+<div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/momo/" target="_blank">
+    <img src="all photos/momo.png">
+    <div class="member-details">
+      <h3 class="member-name">Hirai Momo</h3>
+      <p class="hidden">
+	  	<strong>Stage Name:</strong> Momo (모모)<br>
+        <strong>Korean Name:</strong> 히라이 모모<br>
+        <strong>Position:</strong> Main Dancer, Vocalist, Rapper<br>
+        <strong>Birthday:</strong> November 9, 1996<br>
+        <strong>Zodiac Sign:</strong> Scorpio
+      </p>
+    </div>
+  </a>
+</div>
+
+<div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/m.by__sana/" target="_blank">
+    <img src="all photos/sana.png">
+    <div class="member-details">
+      <h3 class="member-name">Minatozaki Sana</h3>
+      <p class="hidden">
+	  	<strong>Stage Name:</strong> Sana (사나)<br>
+        <strong>Korean Name:</strong> 사나<br>
+        <strong>Position:</strong> Lead Vocalist, Lead Dancer<br>
+        <strong>Birthday:</strong> December 29, 1996<br>
+        <strong>Zodiac Sign:</strong> Capricorn
+      </p>
+    </div>
+  </a>
+</div>
+
+<div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/_zyozyo/" target="_blank">
+    <img src="all photos/jihyo.png">
+    <div class="member-details">
+      <h3 class="member-name">Park Jihyo</h3>
+      <p class="hidden">
+	  	<strong>Stage Name:</strong> Jihyo (지효)<br>
+        <strong>Korean Name:</strong> 박지효<br>
+        <strong>Position:</strong> Main Vocalist, Leader<br>
+        <strong>Birthday:</strong> February 1, 1997<br>
+        <strong>Zodiac Sign:</strong> Aquarius
+      </p>
+    </div>
+  </a>
+</div>
+
+<div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/mina_sr_my/" target="_blank">
+    <img src="all photos/mina.png">
+    <div class="member-details">
+      <h3 class="member-name">Myoui Mina</h3>
+      <p class="hidden">
+	    <strong>Stage Name:</strong> Mina (미나)<br>
+        <strong>Korean Name:</strong> 묘우이 미나<br>
+        <strong>Position:</strong> Main Dancer, Vocalist<br>
+        <strong>Birthday:</strong> March 24, 1997<br>
+        <strong>Zodiac Sign:</strong> Aries
+      </p>
+    </div>
+  </a>
+</div>
+
+<div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/dahhyunnee/" target="_blank">
+    <img src="all photos/dahyun.png">
+    <div class="member-details">
+      <h3 class="member-name">Kim Dahyun</h3>
+      <p class="hidden">
+	    <strong>Stage Name:</strong>Dahyun (다현)<br>
+        <strong>Korean Name:</strong> 김다현<br>
+        <strong>Position:</strong> Lead Rapper, Vocalist<br>
+        <strong>Birthday:</strong> May 28, 1998<br>
+        <strong>Zodiac Sign:</strong> Gemini
+      </p>
+    </div>
+  </a>
+</div>
+
+<div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/chaeyo.0/" target="_blank">
+    <img src="all photos/chaeyoung.png">
+    <div class="member-details">
+      <h3 class="member-name">Son Chaeyoung</h3>
+      <p class="hidden">
+	  	<strong>Stage Name:</strong>Chaeyoung (채영)<br>
+        <strong>Korean Name:</strong> 손채영<br>
+        <strong>Position:</strong> Main Rapper, Vocalist<br>
+        <strong>Birthday:</strong> April 23, 1999<br>
+        <strong>Zodiac Sign:</strong> Taurus
+      </p>
+    </div>
+  </a>
+</div>
+
+<div class="member-info" style="width: 20rem;">
+  <a href="https://www.instagram.com/thinkaboutzu/" target="_blank">
+    <img src="all photos/tzuyu.png">
+    <div class="member-details">
+      <h3 class="member-name">Chou Tzuyu</h3>
+      <p class="hidden">
+	  	<strong>Stage Name:</strong>Tzuyu (쯔위)<br>
+        <strong>Korean Name:</strong> 저우쯔위<br>
+        <strong>Position:</strong> Lead Dancer, Vocalist, Visual<br>
+        <strong>Birthday:</strong> June 14, 1999<br>
+        <strong>Zodiac Sign:</strong> Gemini
+      </p>
+    </div>
+  </a>
+</div>
+			
+</div>
+
+
+<div><!--on the click to the button shows the lyrics in english. Currently official youtube video is not available for copyright issues-->
+      <h2>TOP 3 HITS OF ALL TIME!
+	  <i>P.S.Click the button for listening to songs and viewing lyrics ;)</i> </h2>
+      <ul>
+        
+		<li>
+			<details>
+    		<summary><button class="song-button">#1.FANCY</button></summary>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/609621186&color=%23888ea8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/l2sharetwice" title="L2ShareTWICE" target="_blank" style="color: #cccccc; text-decoration: none;">L2ShareTWICE</a> · <a href="https://soundcloud.com/l2sharetwice/twice-fancy" title="TWICE (트와이스) - FANCY" target="_blank" style="color: #cccccc; text-decoration: none;">TWICE (트와이스) - FANCY</a></div>			
+			<div class="song-text">
+			<h3>Lyrics:</h3>
+			<pre>
+Now, the color of the cloud in the sky is tropical, yeah
+Red color of the sun is like your cheek
+Oh tell me I'm the only one, babe
+I fancy you, I fancy you, fancy you
+(TWICE!)
+
+It's dangerous it pricks, you are like a rose
+It's okay, I am not afraid at all
+Hold it harder, take my hand
+It will be a little dangerous, even more dangerous baby
+
+Like sweet chocolate ice-cream
+My feelings melting now, so lovely
+Shining most brightly in the dark universe
+The star, the star, and your big star next to it
+
+You there, I fancy you
+I don't want just anyone
+Hey, I love you (love ya!)
+Yes, you, I fancy you
+You can be happy like a dream
+'Cause I need you (what?)
+
+Fancy you, ooh
+What if someone likes it first
+Fancy you, ooh
+I will come to you now
+(Fancy, ooh)
+
+Everyday
+I can't do anything really, oh my
+Mayday
+It will become very serious
+Bang bang
+My head is hypnotized, becomes reset
+What should I do?
+Not sure if it is right, S.O.S
+
+Swim, swim
+I become submarine in the sea called you
+Everyday is birthday
+Sweet, you and my fantasy
+Dream, dream
+It's like a dream, pinch your cheek
+Nowadays, my status message is la la la, baby
+
+Like sweet chocolate ice-cream
+My feelings melting now, so lovely
+Shining most brightly in the dark universe
+The star, the star, and your big star next to it
+
+You there, I fancy you
+I don't want just anyone
+Hey, I love you (love ya!)
+Yes, you, I fancy you
+You can be happy like a dream
+'Cause I need you (what?)
+
+Fancy you, ooh
+What if someone likes it first
+Fancy you, ooh
+I will come to you now
+(Fancy, ooh)
+
+Will it suddenly disappear like smoke?
+Always full of it, I take you in my eyes
+I become cozy just by thinking
+I will secretly hold you from behind and never let you go
+
+You there, I fancy you (fancy you)
+I don't want just anyone
+Hey, I love you (love ya!)
+Yes, you, I fancy you
+You can be happy like a dream
+'Cause I need you (what?)
+
+Fancy you, ooh
+What if someone likes it first
+Fancy you, ooh
+I will come to you now
+(Fancy, ooh)
+</pre>
+			</div>
+			</details>
+		</li>
+
+		<li>
+            <details>
+    		<summary><button class="song-button">#2. TT</button></summary>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323856034&color=%23888ea8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-317546857" title="Kpop" target="_blank" style="color: #cccccc; text-decoration: none;">Kpop</a> · <a href="https://soundcloud.com/user-317546857/twice-tt" title="TWICE~ TT" target="_blank" style="color: #cccccc; text-decoration: none;">TWICE~ TT</a></div>
+            <div class="song-text">
+            <h3>Lyrics:</h3>
+            <pre> 
+I'm in two minds,
+In an awkward situation
+I just stare and say ba-ba-ba-baby
+Everyday I only imagine without asking
+I talk casually and say your name baby,
+But we don't even know each other
+Beautiful no matter what I wear
+Just the two of us in the mirror having a
+Fashion show show
+This time for sure, I'll be the first to talk talk
+But it's only in my head, always only in my head
+
+I start humming and before I know it
+I feel like crying, I don't feel like myself
+This isn't like me at all
+I love you so much
+
+Think I'm all grown up now
+I'm free to make my own choices, but why
+Why can't I have it my way
+The more I try to push you away,
+The more I'm drawn and attracted to you baby
+
+I'm like TT, Just like TT
+You don't know how I feel, So mean, so mean
+I'm like TT, Just like TT
+Tell me that you'll be my baby
+
+You say I'm ridiculous,
+That I don't live up to my looks
+Doesn't cheer me up at all ba-ba-ba-baby
+I'm going crazy in all this mess,
+Why do I feel hungry?
+I eat all day and am still hungry
+
+Slap slap slap slap
+The innocent doll
+I sit and lie down all day,
+Time flies flies flies
+What's with the dull skin again
+Keep wanting to just complain
+Mom keeps bothering me why why why?
+
+Nanananananana
+I start humming and before I know it
+I feel so irritated, I'm so upset
+I'm normally not like this
+I love you so much
+
+Think I'm all grown up now
+I'm free to make my own choices, but why
+Why can't I have it my way
+The more I try to push you away,
+The more I'm drawn and attracted to you baby
+
+I'm like TT, Just like TT
+You don't know how I feel, So mean, so mean
+I'm like TT, Just like TT
+Tell me that you'll be my baby
+
+Do you realize what's going on inside me
+Don't disappear from my view like this
+This time for sure, I'll be the first to talk talk
+But it's only in my head, always only in my head
+
+Think I'm all grown up now
+I'm free to make my own choices, but why
+Why can't I have it my way
+The more I try to push you away,
+The more I'm drawn and attracted to you baby
+
+I'm like TT, Just like TT
+You don't know how I feel, So mean, so mean
+I'm like TT, Just like TT
+Tell me that you'll be my baby</pre>
+            </div>
+			</details>
+        </li>
+		
+		<li>
+			<details>
+			<summary><button class="song-button">#3. CHEER UP</button></summary>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1001199502&color=%23888ea8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fatima-mohamed-499186088" title="Fatma" target="_blank" style="color: #cccccc; text-decoration: none;">Fatma</a> · <a href="https://soundcloud.com/fatima-mohamed-499186088/sets/cheer-up_twice" title="Cheer up_Twice" target="_blank" style="color: #cccccc; text-decoration: none;">Cheer up_Twice</a></div>
+			<div class="song-text">
+			<h3>Lyrics:</h3>
+			<pre>
+Every day it rings, the bell bell bell
+Now care for me
+I don't wanna waste my battery
+It keeps coming, it keeps coming
+Like my phone's gonna explode
+I don't know, I don't know, he says he can't even breathe
+He says he's struggling because of me
+He says his heart is dropping, why?
+He says that I'm so pretty
+I'm not showing off or anything
+
+Sorry I couldn't pick up earlier
+I was meeting my friends, shy shy shy
+I can't really meet you right now, sorry
+I'll call you a little later
+
+Don't beg, then you won't last long
+I'll let you call me baby
+It's still a little too early, too early for my heart
+To feel the same – But I'll show you more
+
+CHEER UP BABY CHEER UP BABY
+Cheer up a little more
+A girl can't give her heart too easily
+That's how you'll get to like me even more
+I'll act calm, as if it's nothing
+So you won't know that I like you
+Just get it together
+And then baby CHEER UP
+
+I can hear the anxiety in your voice
+I can see the sweat forming on your phone
+It's not attractive to answer right away
+Reading your text and not responding is a given
+Oops, was I too harsh boy?
+I'm worried that you'll get tired
+But if not, I think I'll fall for you
+I think I'll fall you for even more
+
+Sorry I couldn't respond
+I was meeting my friends, shy shy shy
+I can't really meet you right now, sorry
+I'll call you a little later
+
+Don't beg, I'm not going anywhere
+I'll be your baby
+But not too fast, show me you mean it
+I'll wait for you
+
+CHEER UP BABY CHEER UP BABY
+Cheer up a little more
+A girl can't give her heart too easily
+That's how you'll get to like me even more
+I'll act calm, as if it's nothing
+So you won't know that I like you
+Just get it together
+And then baby CHEER UP
+
+I like you too, I'm just worried I'll get hurt
+I hope you understand cuz I'm a girl
+
+I'm scared that you'll find out how I feel
+Come to me little by little just like now
+It won't take that long
+Just get it together
+And then baby CHEER UP
+
+Be a man, a real man
+Gotta see u love me
+Like a real man
+Be a man, a real man
+Gotta see u love me
+Like a real man
+
+CHEER UP BABY CHEER UP BABY
+Cheer up a little more
+A girl can't give her heart too easily
+That's how you'll get to like me even more
+I'll act calm, as if it's nothing
+So you won't know that I like you
+Just get it together
+And then baby CHEER UP</pre>
+			</div>
+			</details>
+		</li>
+
+	  </ul>
+    </div>
+
+</body>
+
+	<footer>
+    <!-- footer code here -->
+  <nav>
+    <ul>
+      <li><a href="main page.html#about us">About Us</a></li>
+      <li><a href="main page.html#merch">See the Merch</a></li>
+      <li><a href="main page.html#contact">Add your Contacts</a></li>
+    </ul>
+  </nav>
+  <p>&copy; 2023 PopKulture. All rights reserved.</p>
+</footer>
+  
+</html>
