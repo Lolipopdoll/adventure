@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  /* Hide the hidden content by default */
+  .hidden {
+    display: none;
+  }
+
+  /* Show the hidden content when the parent element is hovered */
+  .member-info:hover .hidden {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a white background with some transparency */
+    padding: 10px;
+  }
+  
+  /* Set the position of the member info container to relative */
+  .member-info {
+    position: relative;
+    display: inline-block;
+  }
+  </style>
+  
+  <style>
+  .member-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .member-info {
+    margin: 10px;
+    position: relative;
+    width: 20rem;
+  }
+  .member-info img {
+    width: 100%;
+    height: auto;
+  }
+  .hidden {
+    display: none;
+  }
+  .member-info:hover .hidden {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+  }
+</style>
+</head>
+
+<body>
+
+<header style="position: relative;">
+  <nav>
+    <title>TXT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="all photos\favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="cute style.css">
+    <link rel="stylesheet" href="media.css">
+  </nav>
+  <h1 style="color: #F2C76E;">PopKulture: TXT</h1>
+  <p>Hop into the new Moa fandom, get to know your TXT idols!</p>
+  <img src="all photos/cat.gif" alt="Animated GIF" style="position: absolute; top: 0; right: 0; z-index: 1; width: 100px;">
+</header>
+
+
+<style>/*ensures that text about txt is self adjustable on in and out zoom*/
+.about.bts p {
+    font-size: calc(14px + 0.5vw);
+    line-height: calc(20px + 0.5vw);
+}
+</style>
+
+<section class="about txt">
+
+    <h2>ABOUT TXT</h2>
+    <p>
+TXT (Tomorrow X Together) is a K-pop boy group under Big Hit Music that has quickly become a 
+fan favorite. Comprised of members Soobin, Yeonjun, Beomgyu, Taehyun, and Huening Kai, the group 
+debuted in 2019 and has since gained a massive following with their unique sound, impressive 
+dance skills, and captivating performances.
+
+TXT's music is a blend of various genres, including pop, hip-hop, and rock, resulting in a fresh 
+and distinct sound that sets them apart from other groups. Their lyrics often focus on personal 
+growth and self-reflection, making their music relatable and inspiring for fans of all ages.
+
+In addition to their music, TXT is also known for their striking visuals and fashion-forward style, 
+with each member bringing their own unique flair to the group's overall aesthetic.
+
+As a Big Hit group, TXT has already achieved significant success in the industry, earning numerous 
+awards and nominations for their music and performances. Their passion, dedication, and talent have 
+made them a rising star in the K-pop scene and one to watch in the years to come.</p>
+<button type="submit" onclick="window.open('https://wikipedia.org/wiki/Tomorrow_X_Together', '_blank')"><i>Read more on wikipedia</i></button>
+	</section>
+
+<div> <!--shows the photos of members with hidden information, also clicking on images opena a new tabs with corresponding instagram profiles-->
+<h2>MEET THE MEMBERS! 
+<i>P.S.TXT members did not create instagram account yet:,)</i></h2>
+ 
+	<div class="member-info" style="width: 20rem;">
+    <img src="all photos/soobin.png">
+    <div class="member-details">
+      <h3 class="member-name">Choi Soobin</h3>
+      <p class="hidden">
+	    <strong>Stage Name:</strong> Soobin (수빈)<br>
+        <strong>Korean Name:</strong> 최수빈<br>
+        <strong>Position:</strong> Leader, Rapper, Vocalist, Dancer<br>
+        <strong>Birthday:</strong> December 5, 2000<br>
+        <strong>Zodiac Sign:</strong> Sagittarius
+      </p>
+    </div>
+	</div>
+
+	<div class="member-info" style="width: 20rem;">
+    <img src="all photos/yeonjun.png">
+    <div class="member-details">
+      <h3 class="member-name">Choi Yeonjun</h3>
+      <p class="hidden">
+	    <strong>Stage Name:</strong> Yeonjun (연준)<br>
+        <strong>Korean Name:</strong> 최연준<br>
+        <strong>Position:</strong> Main Dancer, Vocalist, Rapper<br>
+        <strong>Birthday:</strong> September 13, 1999<br>
+        <strong>Zodiac Sign:</strong> Virgo
+      </p>
+    </div>
+	</div>
+
+	<div class="member-info" style="width: 20rem;">
+    <img src="all photos/beomgyu.png">
+    <div class="member-details">
+      <h3 class="member-name">Choi Beomgyu</h3>
+      <p class="hidden">
+	    <strong>Stage Name:</strong> Beomgyu (범규)<br>
+        <strong>Korean Name:</strong> 최범규<br>
+        <strong>Position:</strong> Main Vocalist, Dancer<br>
+        <strong>Birthday:</strong> March 13, 2001<br>
+        <strong>Zodiac Sign:</strong> Pisces
+      </p>
+    </div>
+	</div>
+
+	<div class="member-info" style="width: 20rem;">
+    <img src="all photos/taehyun.png">
+    <div class="member-details">
+      <h3 class="member-name">Kang Taehyun</h3>
+      <p class="hidden">
+	    <strong>Stage Name:</strong> Taehyun (태현)<br>
+        <strong>Korean Name:</strong> 강태현<br>
+        <strong>Position:</strong> Main Vocalist, Dancer<br>
+        <strong>Birthday:</strong> February 5, 2002<br>
+        <strong>Zodiac Sign:</strong> Aquarius
+      </p>
+    </div>
+	</div>
+
+	<div class="member-info" style="width: 20rem;">
+    <img src="all photos/kai.png">
+    <div class="member-details">
+      <h3 class="member-name">Huening Kai</h3>
+      <p class="hidden">
+	    <strong>Stage Name:</strong> Huening Kai (휴닝카이)<br>
+        <strong>Korean Name:</strong> 최휴닝카이<br>
+        <strong>Position:</strong> Vocalist, Rapper, Dancer, Maknae<br>
+        <strong>Birthday:</strong> August 14, 2002<br>
+        <strong>Zodiac Sign:</strong> Leo
+      </p>
+    </div>
+  </div>
+		
+</div>
+
+
+<div><!--on the click to the button shows the lyrics in english. Currently official youtube video is not available for copyright issues-->
+      <h2>TOP 3 HITS OF ALL TIME!
+	  <i>P.S.Click the button for listening to songs and viewing lyrics ;)</i> </h2>
+      <ul>
+        
+		<li>
+			<details>
+    		<summary><button class="song-button">#1.CAN'T YOU SEE ME</button></summary>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/822883354&color=%23888ea8&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-735445860" title="k a l i" target="_blank" style="color: #cccccc; text-decoration: none;">k a l i</a> · <a href="https://soundcloud.com/user-735445860/txt-cant-you-see-me-slowed" title="TXT - Cant You See Me [slowed + reverb]" target="_blank" style="color: #cccccc; text-decoration: none;">TXT - Cant You See Me [slowed + reverb]</a></div>
+			<div class="song-text">
+			<h3>Lyrics:</h3>
+			<pre>
+I’m yours, You were mine Secrets of the world
+That eternal promise was like magic
+Our Scintilla bloomed underneath the starlight
+Now see them burn in fire
+Turned into ruins, our memories into ashes
+
+Together together
+We forever forever, you know
+Our promised something something
+You turn your back when the fire is burning
+
+Crumbled sand castle, who’s a liar
+Dancing fire at the end of the world
+Can’t you hear it? My voice searching for you
+Once again I’m left alone
+“Save me”
+
+Can’t you see me?
+Like on that magical day, say “Believe me”
+My heart incinerated, come and feel me feel me
+Oh can’t you see me?
+My friends don’t understand me, no
+
+Can’t you see me?
+Friends don’t understand me understand me anymore
+Friends don’t understand me anymore more
+Can’t you see me?
+Friends don’t understand me understand me anymore
+Friends don’t understand me understand me anymore
+
+With resentment, my heart is heavy
+Cuz you don’t understand me
+To make my resentment stop, please
+Take my hand, once again
+
+Together together
+We forever forever, you know
+Gone in a dream something something
+Abandoned island, that forgotten melody
+
+Crumbled sand castle, who’s a liar
+Dancing fire at the end of the world
+Can’t you hear it? My voice searching for you
+Once again I’m left alone
+“Save me”
+
+Can’t you see me?
+Like on that magical day, say “Believe me”
+My heart incinerated, come and feel me feel me
+Oh can’t you see me?
+My friends don’t understand me, no
+
+Can’t you see me?
+Friends don’t understand me understand me anymore
+Friends don’t understand me understand me anymore
+Can’t you see me?
+Friends don’t understand me understand me anymore
+Friends don’t understand me understand me anymore
+
+Bad bad hope it’s just a painful dream
+Sad sad return me to your side again
+
+Can’t you see me?
+Like on that magical day, say “Believe me”
+My heart incinerated, come and feel me feel me
+Oh can’t you see me?
+My friends don’t understand me, no
+
+Can’t you see me?
+Friends don’t understand me understand me anymore
+Friends don’t understand me any (Shh!) more
+Can’t you see me?
+Friends don’t understand me understand me anymore
+Friends don’t understand me understand me anymore
+</pre>
+			</div>
+			</details>
+		</li>
+
+		<li>
+            <details>
+    		<summary><button class="song-button">#2. BLUE HOUR</button></summary>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1281365767&color=%23888ea8&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fatima-hameed-alsaeed" title="&lt;3" target="_blank" style="color: #cccccc; text-decoration: none;">&lt;3</a> · <a href="https://soundcloud.com/fatima-hameed-alsaeed/blue-hour-txt" title="Blue Hour - TXT" target="_blank" style="color: #cccccc; text-decoration: none;">Blue Hour - TXT</a></div>
+            <div class="song-text">
+            <h3>Lyrics:</h3>
+            <pre> 
+Blue hour!
+
+I hate this awkwardness I just laugh
+Baby I know we were special
+One of a kind special
+
+That look in your eyes like a gift box that’s been emptied
+You and me in the setting sun
+Yeah yeah I can
+
+But it’s you
+You’re the one that I want
+You
+Everything that I want
+Blue
+The blue landed next to me, everything changes
+The other world at 5:53 is beautiful
+
+Cuz of imagination
+Before the orange-glowing magic
+In that sky
+Comes to an end
+
+Cuz of imagination
+In that instant
+Can you feel the rush
+Can you feel the rush
+Freeze this moment
+
+I wanna stay
+(Can you feel the rush)
+(Can you feel the rush)
+
+On the boundary between the two worlds
+I want to leave a trace of you and me
+Come on let’s do it
+
+I wanna stay
+(Can you feel the rush)
+(Can you feel the rush)
+
+At the hour between dog and wolf
+I want to be trapped in the magic
+Blue hour!
+
+You are my special
+One and only special
+The door of my dreams unseal
+You from my memories become real
+
+So tell me what to do
+A clue to stop the sun
+That you’ll smile, I knew
+Woah ohh yeah
+
+Cuz it’s you
+You’re the one that I want
+You
+Everything that I want
+Blue
+Everything changes in the glow of dusk
+You and me of 5:53, we’re beautiful
+
+Cuz of imagination
+Before the orange-glowing magic
+In that sky
+Comes to an end
+
+Cuz of imagination
+In that instant
+Can you feel the rush
+Can you feel the rush
+Freeze this moment
+
+I wanna stay
+(Can you feel the rush)
+(Can you feel the rush)
+
+On the boundary between the two worlds
+I want to leave a trace of you and me
+Come on let’s do it
+
+I wanna stay
+(Can you feel the rush)
+(Can you feel the rush)
+
+At the hour between dog and wolf
+I want to be trapped in the magic
+Blue hour!
+
+My time machine, dusk turning dark
+I know that the end will come
+The sun is down down down down down
+Before you disappear into the night, I take you into my eyes
+
+Cuz of imagination
+Before the orange-glowing magic
+In that sky
+Comes to an end
+
+Cuz of imagination
+In that instant
+Can you feel the rush
+Can you feel the rush
+Freeze this moment
+
+I wanna stay
+(Can you feel the rush)
+(Can you feel the rush)
+
+On the boundary between the two worlds
+I want to leave a trace of you and me
+Come on let’s do it
+
+I wanna stay
+(Can you feel the rush)
+(Can you feel the rush)
+
+At the hour between dog and wolf
+I want to be trapped in the magic
+Blue hour!
+</pre>
+            </div>
+			</details>
+        </li>
+		
+		<li>
+			<details>
+			<summary><button class="song-button">#3. RUN AWAY</button></summary>
+			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/699466132&color=%23888ea8&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/l2share90" title="L2Share♫90" target="_blank" style="color: #cccccc; text-decoration: none;">L2Share♫90</a> · <a href="https://soundcloud.com/l2share90/txt-run-away" title="TXT - Run Away" target="_blank" style="color: #cccccc; text-decoration: none;">TXT - Run Away</a></div>
+			<div class="song-text">
+			<h3>Lyrics:</h3>
+			<pre>
+Seems like everyone else but me is happy
+It hurts more to laugh than to cry
+I try to hold it in, I try to endure, every day
+But it’s not easy, right now, I need your hand
+
+In those times, when tears come
+Hold my hand tight, shall we run away?
+In the hidden platform of 9 and 3/4
+We can only get through if we’re together
+
+Bibbity boppity, the train is about to depart
+Bibbity boppity, to our magic island
+After this tunnel, after we open our eyes
+Our dreams will become reality
+
+Be my forever, call my name
+Run away, run away, run away with me
+To the ends of the earth, forever together
+Run away babe, please give me an answer
+
+Tell me “yes”, don’t say “no”
+Don’t wanna stay, now let’s go
+When we’re together, we can run across the sky
+Tell me “yes”, don’t say “no”
+Don’t wanna stay, now let’s go
+Take me away with the spell of us
+
+I don’t, I don’t wanna wake up
+My staff is an alarm breaker
+We’re swimming through space
+We’ll be the tail end of a constellation and bungee
+It’s okay, don’t be afraid
+We’ll be with you
+
+When this night is about to be over
+Turn back time, rewind
+A forbidden game in this magic hour
+A blue light will blossom
+
+I wanna color the classroom with this sky blue magic
+So the summoning spell can connect us together
+After this tunnel, after we open our eyes
+Our dreams will become reality
+
+Be my forever, call my name
+Run away, run away, run away with me
+To the ends of the earth, forever together
+Run away babe, please give me an answer
+
+Tell me “yes”, don’t say “no”
+Don’t wanna stay, now let’s go
+When we’re together, we can run across the sky
+Tell me “yes”, don’t say “no”
+Don’t wanna stay, now let’s go
+Take me away with the spell of us
+
+On a dark night, under the stairs
+The moment I saw you, the magic had started
+Let’s make a spell with your tears
+So you will never cry again
+
+Be my forever, call my name
+Run away, run away, run away with me
+To the ends of the earth, forever together
+Run away babe, please give me an answer
+
+Tell me “yes”, don’t say “no”
+Don’t wanna stay, now let’s go
+When we’re together, we can run across the sky
+Tell me “yes”, don’t say “no”
+Don’t wanna stay, now let’s go
+Take me away with the spell of us</pre>
+			</div>
+			</details>
+		</li>
+
+	  </ul>
+    </div>
+
+</body>
+
+	<footer>
+    <!-- footer code here -->
+  <nav>
+    <ul>
+      <li><a href="main page.html#about us">Main Page</a></li>
+      <li><a href="main page.html#merch">See the Merch</a></li>
+      <li><a href="main page.html#contact">Add your Contacts</a></li>
+    </ul>
+  </nav>
+  <p>&copy; 2023 PopKulture. All rights reserved.</p>
+</footer>
+  
+</html>
